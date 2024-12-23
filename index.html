@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERRY CHRISTMAS</title>
+    <link rel="icon" href="./noel.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body >
+    <audio id="audio" src="./giangsinh.mp3"></audio>
+
+    <div id="as" class="christmas-message">Merry Christmas</div>
+    <div class="tree-container">
+        <img src="https://github.com/Panbap/datapanbap/blob/main/image/big_tree.png?raw=true" alt="Cây thông" class="tree-icon">
+    </div>
+
+    <div class="container">
+        <button id="showButton">
+            Thiệp nè bbi
+        </button>
+    </div>
+
+    <div id="guideInfo" class="hidden">
+        <button id="closeButton" class="close-btn">X</button>
+        <div id="ax" class="card">
+            <div class="imgBox">
+                <div class="bark"></div>
+                <img
+                    src="https://github.com/Panbap/datapanbap/blob/main/image/mery.png?raw=true">
+            </div>
+            <div class="details">
+                <h4 class="color margin">MERRY CHRISTMAS</h4>
+                <p>Chúc em bé của anh</p>
+                <p>có 1 giáng sinh vui vẻ!</p>
+                <p>Cảm ơn em bé đã ở bên anh suốt</p>
+                <p>khoảng thời gian qua</p>
+                <p>Em đến vơi anh như 1 </p>
+                <p>tia nắng ấm áp :3</p>
+                <p>Anh chỉ muốn em ở bên anh thoai</p>
+                <p>Tuy giáng sinh anh </p>
+                <p>không ở với em được</p>
+                <p>Nhưng anh có gửi mí bé dwth để</p>
+                <p>bù đắp lại hơi ấm của anh á</p>
+                <p>Em bé đừng có nghĩ j nhìu nha</p>
+                <p>Anh thích được nhìn em bé lúc cười<3</p>
+                <p></p>
+                <p class="text-right">Anh yêu bé mòe của anh!</p>
+                <p class="text-right">♥tungvu♥</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+       document.body.addEventListener("click", function() {
+            var audio = document.getElementById("audio");
+            audio.play();
+        });
+    </script>
+
+</body>
+
+</html>
